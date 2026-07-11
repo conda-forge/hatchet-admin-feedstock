@@ -1,5 +1,5 @@
 context:
-  version: "0.94.5"
+  version: "0.94.6"
 
 package:
   name: hatchet-admin
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/hatchet-dev/hatchet/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 8b67b2aac6dde37f99544dfd23d46d9a3dd99a7eb411931c7271b3282d5153bc
+    sha256: 36d87acba8c1dd823c24df351947560566f61667a6e67d0fe03ae45891ed1bb0
     target_directory: src
   - url: https://raw.githubusercontent.com/mattn/go-localereader/6bae6c923850ab5e0da9f36f69811ffe17064228/LICENSE
     sha256: dceede03550621e65ec7b79fcba87cf6dbb9d31132a8ae71a8fe8ceec0af7da3
